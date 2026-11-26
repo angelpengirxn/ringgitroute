@@ -51,11 +51,6 @@ docs/screenshots/              Prototype screenshots used in poster, slides and 
 .streamlit/config.toml         Theme
 ```
 
-## Deploying a shareable demo (optional)
-
-Push the folder to a GitHub repository and deploy `app.py` on Streamlit Community Cloud
-(free tier). Make the app public so the lecturer can open it from the poster/video link.
-
 ## Conventions
 
 * Exchange rates are direct quotes: MYR per 1 unit of foreign currency (per 100 for JPY).
