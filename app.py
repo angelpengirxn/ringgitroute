@@ -1,6 +1,5 @@
 """
 RinggitRoute - FX Study-Abroad Budget Tutor
-GFB3043/GEB3043 International Financial Management - FinBridge AI Innovation Challenge
 
 Run locally:   pip install -r requirements.txt
                streamlit run app.py
@@ -93,8 +92,7 @@ R = evaluate(S)
 
 # ---------------------------------------------------------------- header + answer up front
 st.markdown(
-    "<div class='rr-hero'><div class='rr-kicker'>GFB3043 / GEB3043 · FinBridge AI Innovation Challenge · Group 19</div>"
-    "<div class='rr-title'>RinggitRoute</div>"
+    "<div class='rr-hero'><div class='rr-title'>RinggitRoute</div>"
     "<div class='rr-tag'>Know what your overseas semester really costs in ringgit — before the ringgit moves.</div>"
     "<div class='rr-sub'>Interest rates, inflation and exchange rates explained with your own study-abroad budget.</div>"
     "</div>", unsafe_allow_html=True)
@@ -380,5 +378,4 @@ with tabs[5]:
                         "model, so every sentence is traceable to a formula. AI assistance used in building the project is "
                         "disclosed in the report.")
 st.divider()
-st.caption("RinggitRoute prototype · GFB3043/GEB3043 International Financial Management · FinBridge AI Innovation "
-           "Challenge · Educational use only. All preset data are illustrative.")
+st.caption("RinggitRoute prototype · Educational use only. All preset data are illustrative.")

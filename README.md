@@ -1,7 +1,5 @@
 # RinggitRoute — FX Study-Abroad Budget Tutor
 
-GFB3043 / GEB3043 International Financial Management · FinBridge AI Innovation Challenge · Group 19
-
 RinggitRoute helps non-finance university students in Malaysia plan the ringgit cost of an overseas
 semester or degree, while learning how **interest rates, inflation and exchange rates** are linked
 (Fisher effect, interest rate parity, purchasing power parity and the international Fisher effect).

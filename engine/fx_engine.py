@@ -3,7 +3,7 @@ RinggitRoute - finance engine
 =============================
 
 Pure, side-effect-free functions for the three CLO3 parity relationships used by the
-RinggitRoute prototype (GFB3043/GEB3043 International Financial Management).
+RinggitRoute prototype.
 
 Conventions (applied everywhere in the app, report and slides)
 ---------------------------------------------------------------
