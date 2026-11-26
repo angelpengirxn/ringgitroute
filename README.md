@@ -41,6 +41,7 @@ Evidence files are written to `evidence/` (`verification_table.csv`, `verificati
 
 ```
 app.py                         Streamlit user interface
+ui_components.py               Frosted-glass theme (poster palette) and HTML components
 engine/fx_engine.py            Finance engine (pure functions, documented formulas)
 engine/scenarios.py            Three illustrative preset scenarios (A, B, C)
 engine/tutor.py                Rule-based Predict→Reveal marking and answer-checker
