@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python
+cachedir: .pytest_cache
+rootdir: /home/claude/ringgitroute
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 19 items
+
+tests/test_engine.py::test_fisher_roundtrip PASSED                       [  5%]
+tests/test_engine.py::test_irp_equal_rates_gives_spot PASSED             [ 10%]
+tests/test_engine.py::test_money_market_equals_forward[sc0] PASSED       [ 15%]
+tests/test_engine.py::test_money_market_equals_forward[sc1] PASSED       [ 21%]
+tests/test_engine.py::test_money_market_equals_forward[sc2] PASSED       [ 26%]
+tests/test_engine.py::test_ife_equals_ppp_when_real_rates_equal PASSED   [ 31%]
+tests/test_engine.py::test_higher_home_inflation_weakens_myr PASSED      [ 36%]
+tests/test_engine.py::test_higher_foreign_interest_lowers_forward PASSED [ 42%]
+tests/test_engine.py::test_fisher_link_moves_nominal_rate PASSED         [ 47%]
+tests/test_engine.py::test_sensitivity_is_monotonic_in_home_inflation PASSED [ 52%]
+tests/test_engine.py::test_scenario_a_values PASSED                      [ 57%]
+tests/test_engine.py::test_scenario_b_values PASSED                      [ 63%]
+tests/test_engine.py::test_scenario_c_ife_and_ppp_disagree_in_direction PASSED [ 68%]
+tests/test_engine.py::test_tutor_full_marks_with_key PASSED              [ 73%]
+tests/test_engine.py::test_checker_detects_inverted_ratio PASSED         [ 78%]
+tests/test_engine.py::test_checker_detects_wrong_variable PASSED         [ 84%]
+tests/test_engine.py::test_checker_detects_ignored_horizon PASSED        [ 89%]
+tests/test_engine.py::test_checker_accepts_correct_rounded PASSED        [ 94%]
+tests/test_engine.py::test_real_rate_checker_approximation PASSED        [100%]
+
+============================== 19 passed in 0.02s ==============================
